@@ -1,18 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./bootstrap.css">
+    <style>
+            .pink{
+                background-color: pink;
+                border:1px solid black;
+            }
+            .red{
+                background-color: red;
+                border:1px solid black;
+            }
+            .green{
+                background-color: green;
+                border:1px solid red;
+                min-height:100px;
+            }
+            .blue{
+                background-color: blue;
+                border:1px solid black;
+                height:100px;
+            }
+            </style>
 </head>
+
 <body>
-    
-        <script
-        src="https://code.jquery.com/jquery-3.4.0.js"
-        integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
-        crossorigin="anonymous"></script>
+    <a href="basics.html" class="btn btn-primary">Go to basics</a>
+    <a href="navbars.html" class="btn btn-primary">Go to nav</a>
+
+    <div class="container">
+        <div class="row">
+            <div class="col col-lg-2 pink">COL LG 2</div>
+            <div class="col col-lg-8 pink">COL LG 8</div>
+            <div class="col col-lg-2 pink">COL LG 2</div>
+        </div>
+        <div class="row">
+            <div class="col col-lg-5 pink">COL LG 5</div>
+            <div class="col col-lg-5 pink">COL LG 5</div>
+            <div class="col col-lg-2 pink">COL LG 2</div>
+        </div>
+        <div class="row">
+            <div class="col col-lg-4 pink">COL LG 4</div>
+            <div class="col col-lg-4 pink">COL LG 4</div>
+            <div class="col col-lg-4 pink">COL LG 4</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col col-lg-1 col-md-6 col-sm-4 col-xs-12 red">col red</div>
+            <div class="col col-lg-1 col-md-6 col-sm-4 col-xs-12 red">col red</div>
+            <div class="col col-lg-1 col-md-6 col-sm-4 col-xs-12 red">col red</div>
+            <div class="col col-lg-1 col-md-6 col-sm-4 col-xs-12 red">col red</div>
+            <div class="col col-lg-1 col-md-6 col-sm-4 col-xs-12 red">col red</div>
+            <div class="col col-lg-1 col-md-6 col-sm-4 col-xs-12 red">col red</div>
+            <div class="col col-lg-1 col-md-6 col-sm-4 col-xs-12 red">col red</div>
+            <div class="col col-lg-1 col-md-6 col-sm-4 col-xs-12 red">col red</div>
+            <div class="col col-lg-1 col-md-6 col-sm-4 col-xs-12 red">col red</div>
+            <div class="col col-lg-1 col-md-6 col-sm-4 col-xs-12 red">col red</div>
+            <div class="col col-lg-1 col-md-6 col-sm-4 col-xs-12 red">col red</div>
+            <div class="col col-lg-1 col-md-6 col-sm-4 col-xs-12 red">col red</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col col-md-3 col-sm-6 green">
+                <div class="row">
+                    <div class="col col-lg-6 blue">Half Way</div>
+                    <div class="col col-lg-6 blue">Other Half</div>
+                </div>
+            </div>
+            <div class="col col-md-3 col-sm-6 green">Two</div>
+            <div class="col col-md-3 col-sm-6 green">Three</div>
+            <div class="col col-md-3 col-sm-6 green">
+                <div class="row">
+                    <div class="col col-lg-2 blue">word</div>
+                    <div class="col col-lg-2 blue">word</div>
+                    <div class="col col-lg-2 blue">word</div>
+                    <div class="col col-lg-2 blue">word</div>
+                    <div class="col col-lg-2 blue">word</div>
+                    <div class="col col-lg-2 blue">word</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.0.js"
+        integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
     <script src="./bootstrap.js"></script>
 </body>
+
 </html>
